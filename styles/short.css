@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background-color: black;
+}
+
+/* home section */
+.container {
+  height: 100vh;
+}
+
+.container .card {
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: rgb(26, 26, 26);
+}
+
+.container .card .input-container {
+  margin: 5px 0;
+}
+
+.container .card span:nth-child(1) {
+  color: #e84393;
+}
+
+.container .card span:nth-child(2) {
+  color: white;
+}
+
+.container .card .input-container input,
+button {
+  margin: 0 2px;
+  padding: 12px 20px;
+}
+
+.container .card button {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e84393;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+.container .card button:hover {
+  background-color: #fd79a8;
+}
+
+.container .card input {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+/* shortlink section */
+.shortlink-container {
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: rgb(26, 26, 26);
+  color: red;
+  flex-direction: column;
+}
+
+.shortlink-container a {
+  text-decoration: none;
+  color: #e84393;
+}
+
+/* success section */
+.success-container {
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: rgb(26, 26, 26);
+  color: white;
+  flex-direction: column;
+}
+
+.success-container .input-container {
+  margin: 5px 0;
+}
+
+.success-container h1 span:nth-child(1) {
+  color: #e84393;
+}
+
+.success-container .input-container input,
+button {
+  margin: 0 2px;
+  padding: 12px 20px;
+}
+
+.success-container .input-container button {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e84393;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.success-container .input-container button:hover {
+  background-color: #fd79a8;
+}
+
+.success-container .input-container input {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+}
